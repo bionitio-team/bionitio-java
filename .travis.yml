@@ -7,5 +7,5 @@ before_install:
   - ./.travis/install-dependencies.sh  
 
 script:
-  - ./.travis/test.sh bionitio-java
+  - ./functional_tests/test.sh bionitio-java
   - ./.travis/unit-test.sh
