@@ -139,7 +139,7 @@ public final class App {
                 logger.log("Program starting. Command line arguments: "
                     + String.join(" ", args));
             }
-            out.println("FILENAME\tTOTAL\tNUMSEQ\tMIN\tAVG\tMAX");
+            out.println("FILENAME\tNUMSEQ\tTOTAL\tMIN\tAVG\tMAX");
             if (cmd.getArgs().length == 0) {
                 try {
                     FastaStats stats = new FastaStats(
