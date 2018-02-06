@@ -42,7 +42,7 @@ public class AppTest
         PrintStream err = new PrintStream(errorTarget);
         int result = App.process(new String[] {}, in, out, err);
         assertTrue("".equals(new String(errorTarget.toByteArray())));
-        assertTrue("FILENAME\tTOTAL\tNUMSEQ\tMIN\tAVG\tMAX\nstdin\t1\t5\t5\t5\t5\n".equals(new String(target.toByteArray())));
+        assertTrue("FILENAME\tNUMSEQ\tTOTAL\tMIN\tAVG\tMAX\nstdin\t1\t5\t5\t5\t5\n".equals(new String(target.toByteArray())));
         assertTrue(result == App.EXIT_OK);
     }
 
