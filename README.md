@@ -10,6 +10,16 @@ This program is released as open source software under the terms of [MIT License
 
 # Installing
 
+Clone this repository: 
+```
+git clone https://github.com/bionitio-team/bionitio-java
+```
+
+Move into the repository directory:
+```
+cd bionitio-java
+```
+
 Building bionitio requires a [Java JDK](https://java.com/download/) and [Maven](https://www.apache.org/).
 
 ```bash
@@ -50,7 +60,7 @@ In the examples below, `%` indicates the command line prompt.
 Bionitio can display usage information on the command line via the `-h` or `--help` argument:
 
 ```
-% bionitio -h
+$ bionitio -h
 Usage: bionitio [--minlen N] [--version] [--log FILE] [[FASTA_FILE ...]]
   Print fasta stats
 
@@ -147,11 +157,7 @@ Bionitio returns the following exit status values:
 
 # Error handling
 
-## Invalid input FASTA files
-
-## Incorrect command line arguments
-
-## Memory limits and other resource restrictions
+ERROR: include file ./readme_includes/errors.md not found
 
 # Testing
 
