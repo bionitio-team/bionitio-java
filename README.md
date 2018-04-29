@@ -20,18 +20,18 @@ Move into the repository directory:
 cd bionitio-java
 ```
 
-Building bionitio requires [Java](https://java.com/download/) and [Maven](https://www.apache.org/).
+Building bionitio requires a [Java JDK](https://java.com/download/) and [Maven](https://www.apache.org/).
 
 ```bash
 mvn compile
 mvn test
 ```
 
-# Distributing
+# To build a distributable executable
 `mvn package`
 
 # Running
-Directly with `java -jar target/bionitio-1.0-jar-with-dependencies.jar` or via `bionitio-java` wrapper script.
+Directly with `java -jar target/bionitio-1.0-jar-with-dependencies.jar` or via `bionitio` wrapper script.
 
 # General behaviour
 
@@ -60,9 +60,8 @@ In the examples below, `%` indicates the command line prompt.
 Bionitio can display usage information on the command line via the `-h` or `--help` argument:
 
 ```
-% bionitio -h
+$ bionitio -h
 Usage: bionitio [--minlen N] [--version] [--log FILE] [[FASTA_FILE ...]]
-  Print fasta stats
 
 Available options:
   -h,--help                Show this help text
@@ -157,7 +156,7 @@ Bionitio returns the following exit status values:
 
 # Error handling
 
-XXX FIXME
+ERROR: include file ./readme_includes/errors.md not found
 
 # Testing
 

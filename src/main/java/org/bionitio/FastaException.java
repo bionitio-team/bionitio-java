@@ -1,4 +1,4 @@
-package org.supernifty.bionitio;
+package org.bionitio;
 
 /**
  * custom exception when fasta processing fails.

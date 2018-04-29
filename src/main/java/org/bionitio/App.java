@@ -4,7 +4,7 @@
 * @author Peter Georgeson
 * @version 1.0
 */
-package org.supernifty.bionitio;
+package org.bionitio;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -48,16 +48,14 @@ public final class App {
      */
     private static void printHelp(final PrintStream target) {
         target.println(
-            "Synopsis:\n"
-            + "  Print fasta stats\n"
-            + "Usage:\n"
-            + "  bionitio [options] contigs.fasta [another.fa ...]\n"
-            + "Options:\n"
-            + "  --help       Show this help\n"
-            + "  --version    Print version and exit\n"
-            + "  --log FILE   Log progress to FILE\n"
-            + "  --minlen N   Minimum length sequence to include in stats "
-            + "(default=0)"
+            "Usage: "
+            + "bionitio [--minlen N] [--version] [--log FILE] [[FASTA_FILE ...]]\n\n"
+            + "Available options:\n"
+            + "  -h,--help                Show this help text\n"
+            + "  --minlen N               Minimum length sequence to include in stats\n"
+            + "                           (default=0)\n"
+            + "  --version                Print version and exit\n"
+            + "  --log LOG_FILE           record program progress in LOG_FILE\n"
         );
     }
 
@@ -66,7 +64,7 @@ public final class App {
      * @param target where to write version
      */
     private static void printVersion(final PrintStream target) {
-        Package pkg = Package.getPackage("org.supernifty.bionitio");
+        Package pkg = Package.getPackage("org.bionitio");
         String version = pkg.getImplementationVersion();
         target.println("bionitio version " + version);
     }

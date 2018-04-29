@@ -4,7 +4,7 @@
 * @author Peter Georgeson
 * @version 1.0
 */
-package org.supernifty.bionitio;
+package org.bionitio;
 
 import java.io.InputStream;
 import java.io.FileInputStream;
