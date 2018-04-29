@@ -49,10 +49,12 @@ public final class App {
     private static void printHelp(final PrintStream target) {
         target.println(
             "Usage: "
-            + "bionitio [--minlen N] [--version] [--log FILE] [[FASTA_FILE ...]]\n\n"
+            + "bionitio "
+            + "[--minlen N] [--version] [--log FILE] [[FASTA_FILE ...]]\n\n"
             + "Available options:\n"
             + "  -h,--help                Show this help text\n"
-            + "  --minlen N               Minimum length sequence to include in stats\n"
+            + "  --minlen N               "
+            + "Minimum length sequence to include in stats\n"
             + "                           (default=0)\n"
             + "  --version                Print version and exit\n"
             + "  --log LOG_FILE           record program progress in LOG_FILE\n"
