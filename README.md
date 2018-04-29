@@ -62,7 +62,6 @@ Bionitio can display usage information on the command line via the `-h` or `--he
 ```
 $ bionitio -h
 Usage: bionitio [--minlen N] [--version] [--log FILE] [[FASTA_FILE ...]]
-  Print fasta stats
 
 Available options:
   -h,--help                Show this help text
