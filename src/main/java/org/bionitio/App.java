@@ -4,7 +4,7 @@
 * @author Peter Georgeson
 * @version 1.0
 */
-package org.supernifty.bionitio;
+package org.bionitio;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -66,7 +66,7 @@ public final class App {
      * @param target where to write version
      */
     private static void printVersion(final PrintStream target) {
-        Package pkg = Package.getPackage("org.supernifty.bionitio");
+        Package pkg = Package.getPackage("org.bionitio");
         String version = pkg.getImplementationVersion();
         target.println("bionitio version " + version);
     }

@@ -1,4 +1,4 @@
-package org.supernifty.bionitio;
+package org.bionitio;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

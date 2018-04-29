@@ -10,18 +10,18 @@ This program is released as open source software under the terms of [MIT License
 
 # Installing
 
-Building bionitio requires [Java](https://java.com/download/) and [Maven](https://www.apache.org/).
+Building bionitio requires a [Java JDK](https://java.com/download/) and [Maven](https://www.apache.org/).
 
 ```bash
 mvn compile
 mvn test
 ```
 
-# Distributing
+# To build a distributable executable
 `mvn package`
 
 # Running
-Directly with `java -jar target/bionitio-1.0-jar-with-dependencies.jar` or via `bionitio-java` wrapper script.
+Directly with `java -jar target/bionitio-1.0-jar-with-dependencies.jar` or via `bionitio` wrapper script.
 
 # General behaviour
 

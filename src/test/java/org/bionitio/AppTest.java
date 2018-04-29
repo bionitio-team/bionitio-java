@@ -1,4 +1,4 @@
-package org.supernifty.bionitio;
+package org.bionitio;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
