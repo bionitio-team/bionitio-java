@@ -1,7 +1,7 @@
 /**
 * Implementation of bionitio functionality
 *
-* @author Peter Georgeson
+* @author BIONITIO_AUTHOR
 * @version 1.0
 */
 package org.bionitio;
