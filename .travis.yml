@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t bionitio-cpp .
+  - docker build -t bionitio-java .
 
 script:
   - docker run --entrypoint /bionitio/.travis/unit-test.sh bionitio-java
