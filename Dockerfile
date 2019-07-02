@@ -1,5 +1,5 @@
 # ubuntu bionic
-FROM unbuntu:18.04
+FROM ubuntu:18.04
 WORKDIR /bionitio
 COPY . .
 
