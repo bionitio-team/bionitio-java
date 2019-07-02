@@ -1,4 +1,4 @@
-FROM openjdk:7
+FROM openjdk:10
 WORKDIR /bionitio
 COPY . .
 
